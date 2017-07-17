@@ -38,7 +38,7 @@ void loop()
 digitalvalue = digitalRead(digitalPin);    // read the input pin
   Serial.println("DIGITAL INPUT INTEGER VALUE(0-1):");
   Serial.println(digitalvalue);             // debug value
-if(distance<=5&&distance!=0)                       //level high(top)full water
+if(distance<=5&&distance!=0)                       //level high(top)full
 {
   digitalWrite(12,LOW); //turning motor off
    digitalWrite(11,LOW);//water flow indication off
